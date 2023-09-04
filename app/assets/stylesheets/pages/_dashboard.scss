@@ -3,30 +3,18 @@
 .div1 {
   width: 50%;
   float: left;
-  color: #CEFE91;
 }
 
 .div2 {
   width: 50%;
   float: right;
+}
+
+h3 {
   color: #CEFE91;
 }
 
-.div2 h6 {
-  color: #CEFE91;
-}
-
-.hello {
-  width: 50%;
-  float: left;
-  color: #CEFE91;
-  text-decoration: underline#CEFE91;
-}
-
-.hello2 {
-  text-decoration: underline #CEFE91;;
-}
-.yello {
-  display: flex;
-  flex-direction: row;
+.container {
+  width: 100%; /* Ensure the container takes up the full width */
+  overflow: hidden; /* Clear float */
 }
